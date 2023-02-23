@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIMPLE CALCULATOR</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+    
+    <h1>SIMPLE CALCULATOR</h1>
+    
+    <form name="dashbord">
+        <table >
+            <tr>
+                <td colspan="4">
+                   <input  id="a" type="text" name="showvalue"  value="" readonly>
+                </td>
+            </tr>
+   <td> <input type="button" value="7"
+      onClick="dashbord.showvalue.value+='7'">
+                
+            </td>
+            <td> <input type="button" value="8"
+      onClick="dashbord.showvalue.value+='8'"> 
+      </td> 
+      <td><input type="button" value="9"
+      onClick="dashbord.showvalue.value+='9'">
+      </td>
+    <td> <input type="button" class="operator" name = "plus"value="+"
+      onClick="dashbord.showvalue.value+='+'"></td>
+      <tr>
+      <td> <input type="button" value="4"
+      onClick="dashbord.showvalue.value+='4'">
+      </td>
+      <td> <input type="button" value="5"
+      onClick="dashbord.showvalue.value+='5'">
+      </td>
+       <td> <input type="button" value="6"
+      onClick="dashbord.showvalue.value+='6'">
+      </td>
+        <td> <input type="button" class="operator" name="minus"value="-"
+      onClick="dashbord.showvalue.value+='-'">
+      </td>
+      </tr>
+      <tr>
+       <td> <input type="button" value="1"
+      onClick="dashbord.showvalue.value+='1'">
+      </td>
+      <td> <input type="button" value="2"
+      onClick="dashbord.showvalue.value+='2'"></td>
+      
+      
+      <td> <input type="button" value="3"
+      onClick="dashbord.showvalue.value+='3'">
+      </td>
+      <td> <input type="button" class="operator" name="times"value="*"
+      onClick="dashbord.showvalue.value+='*'"></td>
+      </tr>
+      <tr>
+      
+      <td> <input type="button" id="clear" name="clear" value="c"
+      onClick="dashbord.showvalue.value=''"></td>
+
+      <td> <input type="button" value="0"
+        onClick="dashbord.showvalue.value+='0'"></td>
+      
+       <td> <input type="button" class="operator" name="equal"value="="
+      onClick="dashbord.showvalue.value =eval(dashbord.showvalue.value)"></td>
+      
+      <td> <input type="button" class="operator" name = "div"value="/"
+      onClick="dashbord.showvalue.value+='/'"> </td>
+    </tr> 
+   </table>
+    </form>
+    
+    </body>
+</html>

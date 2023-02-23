@@ -1,0 +1,59 @@
+body{
+margin: 0%;
+padding: 0%;
+background-color:black;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+table{
+    margin: auto;
+    background-color:beige;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    border-radius: 45px;
+    padding-right: 10px;
+    border:none;
+}
+#a{
+    width: 250px;
+    background-color: rgb(130, 158, 82);
+    color: white;
+}
+
+input{
+    border-radius: 25px;
+    border: none;
+    left: 7px;
+    top: 7px;
+    color:black;
+    background-color: coral;
+    width: 50px;
+    height: 52px;
+    font-size: 25px;
+    margin: 5px;
+    box-shadow: 0 2px gainsboro;
+}
+
+input:hover{
+    border:0 solid lightsteelblue ;
+    color:black;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 25px;
+    box-shadow: 0 5px lightblue;
+}
+
+input:active{
+    box-shadow: 0 5px lightblue;
+}
+
+.operator{
+    background-color:wheat;
+    color:black;
+}
